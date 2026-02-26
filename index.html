@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<!--header and Navigation-->
+
+<header>
+        <h1>LifeCare Health Centre</h1>
+        <p>Compassionate Care for a Healthier Community</p>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Book Appointment</a></li>
+                <li><a href="#healthtips">Health Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- HOMEPAGE SECTION -->
+<section id="home">
+
+        <h2>Welcome to LifeCare Health Center</h2>
+
+        <p>We are truly honored to have you here. At LifeCare, your health, comfort, and well-being are our top priorities. Our dedicated team of healthcare professionals is committed to providing <strong>high-quality and patient-centered care</strong> in a safe and supportive environment.</p>
+
+        <p>At LifeCare Health Center, we combine modern medical technology with comprehensive health services to meet the divers needs of our community. From preventive care and routine check-ups to specialized treatments and emergency support, we focus on <em>quality, affordability, and efficiency</em>  to give you the best possible health care experience. Feel free to reach out to any member of our staff if you need assistance, we are always happy to help because Health Is Wealth. We look forward to serving you and supporting your journey to better health. Wishing you comfort, care, and good health.</p>
+
+        <img src="/c33.jpg" alt="lifecare health center">
+
+        <h2>Why Choose Us?</h2>
+
+        <ul>
+            <li>Experienced Medical Professionals</li>
+            <li>Modern Medical Equipment</li>
+            <li>Comprehensive Services</li>
+            <li>Transparency of Entire Health History</li>
+            <li>Affordable Healthcare</li>
+            <li>Emergency Care Availability</li>
+            <li>Referrals to Other Medical Specialists</li>
+        </ul>
+
+    </section>
+
+
+   <!-- SERVICES SECTION -->
+    <section id="services">
+
+    <h2>Our Service Sections</h2>
+
+    <h3>Treatment and Management Services</h3>
+
+        <dl>
+            <dt>General Consultation:</dt>
+            <dd>Initial assessments, medical history and treatment plans.</dd>
+
+            <dt>Maternal and Child Health:</dt>
+            <dd>Prenatal care, postnatal care, and pediatric services.</dd>
+
+            <dt>Chronic Disease Management:</dt>
+            <dd>Ongoing care for conditions like diabetes, hypertension (high blood pressure) and asthma.</dd>
+
+            <dt>Mental Health Services:</dt>
+            <dd>Counseling therapy, and referrals for mental health concerns.</dd>
+
+            <dt>Emergency and Trauma care</dt>
+            <dd>Offers 24/7 urgent medical attention for accidents, severe illnesses, breathing difficulties, bleeding, and other life-threatening conditions.</dd>
+
+            <dt>Dental Care:</dt>
+            <dd>Routine check-ups, fillings, extractions, and oral health education.</dd>
+
+        </dl>
+
+
+        <h3>Preventive and Diagnostic Services</h3>
+        <dl>
+            <dt>Health Screenings:</dt>
+            <dd>preventive checks for blood pressure, blood sugar, cholesterol, and cancer.</dd>
+
+            <dt>Vaccination Services:</dt>
+            <dd>Immunizations for adults and children, travel vaccines, and boosters</dd>
+
+            <dt>Laboratory Services:</dt>
+            <dd>Blood test, urinalysis, and other diagnostic test.</dd>
+            
+        </dl>
+
+    </section>
+
+
+  <!--DOCTORS TABLE-->
+ <section id="doctors">
+    <h2>Our Doctors</h2>
+
+  <table border="1">
+    
+        <caption>LifeCare medical Health</caption>
+ <thead>
+    <tr>
+        
+        <th>Names</th>
+        <th>Specialization</th>
+        <th>Qualification</th>
+        <th>Available days</th>
+    </tr>
+</thead>
+
+ <tbody>
+    <tr>
+       
+        <td>Dr. John Smith</td>
+        <td>Cardiology</td>
+        <td>MD, PhD</td>
+        <td rowspan="2">Monday, Wednesday, Friday</td>
+    </tr>
+
+
+    <tr>
+        
+        <td>Dr. Emily Johnson</td>
+        <td>Neurology</td>
+        <td>MD, PhD</td>
+    </tr>
+
+    <tr>
+        
+        <td>Dr. Michael Brown</td>
+        <td>Pediatrics</td>
+        <td>MD, PhD</td>
+        <td>Monday, Wednesday, Friday</td>
+    </tr>
+
+    <tr>
+       
+        <td>Dr. Sarah Davis</td>
+        <td>Dermatology</td>
+        <td>MD, PhD</td>
+        <td>Tuesday, Thursday, Saturday</td>
+    </tr>
+
+    <tr>
+        
+        <td>Dr. David Wilson</td>
+        <td>Orthopedics</td>
+        <td>MD, PhD</td>
+        <td>Monday, Wednesday, Friday</td>
+    </tr>
+
+    <tr>
+       
+        <td>Dr. Jessica Lee</td>
+        <td>Gastroenterology</td>
+        <td>MD, PhD</td>
+        <td>Tuesday, Thursday, Saturday</td>
+    </tr>
+   </tbody>
+   </table>
+ </section>
+
+   <!-- APPOINTMENT BOOKING FORM -->
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" minlength="5" maxlength="10" required><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label>Patient Type:</label>
+                <input type="radio" id="new" name="patienttype" value="new">
+                <label for="new">New Patient</label>
+
+                <input type="radio" id="returning" name="patienttype" value="returning">
+                <label for="returning">Returning Patient</label><br><br>
+
+                <input type="checkbox" id="insurance" name="insurance">
+                <label for="insurance">Insurance Available</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Appointment Information</legend>
+
+                <label for="doctor">Preferred Doctor:</label>
+                <select id="doctor" name="doctor">
+                    <option value="">Select</option>
+                    <option value="Dr. Michael Adams">Dr. Michael Adams</option>
+                    <option value="Dr. Grace Okoro">Dr. Grace Okoro</option>
+                    <option value="Dr. Daniel Smith">Dr. Daniel Smith</option>
+                    <option value=" Dr. Linda Brown">Dr. Linda Brown</option>
+                    <option value="Dr. Sarah Johnson">Dr. Sarah Johnson</option>
+                </select><br><br>
+
+                <label for="appointmentdate">Appointment Date:</label>
+                <input type="date" id="appointmentdate" name="appointmentdate"><br><br>
+
+                <label for="appointmenttime">Appointment Time:</label>
+                <input type="time" id="appointmenttime" name="appointmenttime"><br><br>
+
+                <label for="reason">Reason for Visit:</label><br>
+                <textarea id="reason" name="reason" rows="4" cols="40"></textarea>
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Submit Appointment">
+        </form>
+    </section>
+
+    <!-- HEALTH TIPS SECTION -->
+    <section id="healthtips">
+        <h2>Health Tips</h2>
+
+        <article>
+            <h3>Maintaining a Healthy Diet</h3>
+            <p>Eating balanced meals improves immunity and overall well-being.</p>
+            <ol>
+                <li>Include fruits and vegetables daily.</li>
+                <li>Drink plenty of water.</li>
+                <li>Reduce processed foods.</li>
+                <li>Limit sugar and salt intake.</li>
+            </ol>
+        </article>
+
+        <article>
+            <h3>Regular Exercise Benefits</h3>
+            <p>Physical activity strengthens the body and improves mental health.</p>
+            <ol>
+                <li>Exercise at least 30 minutes daily.</li>
+                <li>Incorporate strength training.</li>
+                <li>Stretch before workouts.</li>
+                <li>Stay consistent with routines.</li>
+            </ol>
+        </article>
+
+        <article>
+            <h3>Preventing Common Illnesses</h3>
+            <p>Simple hygiene practices can prevent infections.</p>
+            <ol>
+                <li>Wash hands regularly.</li>
+                <li>Keep vaccinations up to date.</li>
+                <li>Get enough sleep.</li>
+                <li>Visit your doctor for regular checkups.</li>
+            </ol>
+        </article>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <p>&copy; 2026 LifeCare Health Centre. All Rights Reserved.</p>
+
+        <address>
+            123 Wellness Street, Cityville<br>
+            Phone: +234 800 000 0000<br>
+            Email: info@lifecarehealth.com
+        </address>
+
+        <p><strong>Emergency:</strong> Call 911 immediately for life-threatening conditions.</p>
+
+        <h4>Quick Links</h4>
+        <nav>
+            <ul>
+            <li><a href="#
+                ">Scroll Up</a></li>
+            <li><a href="https://nisa.com.ng"> Nisa Premier Hospita</a></li>
+            <li><a href="https://healthcare.ascension.org">Ascension Healthcare</a></li>
+            <li><a href="https://unth.edu.ng">UNTH FastCare</a></li>
+            <li><a href="https://ucthcalabar.gov.ng">University of Calabar Teaching Hospital</a></li>
+        </ul>
+        </nav>
+        
+    </footer>
+
+</body>
+</html>
